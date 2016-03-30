@@ -17,7 +17,9 @@ QApp.defineView('guide', {
 	plugins : ['delegated'],
 
 	bindActions : {
-
+		'tap.gotoIndex' : function(){
+			QApp.open('index');
+		}
 	},
 
 	bindEvents : {

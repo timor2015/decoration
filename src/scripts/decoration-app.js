@@ -3,6 +3,7 @@ require('QApp');
 
 // 引导展示页
 require('./views/action/guide.js');
+require('./views/action/index.js');
 
 
 

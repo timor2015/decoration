@@ -1,6 +1,6 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="http://www.abc.com/decoration/source/images/guide1.png"></div>
-        <div class="swiper-slide"><div class="gotoIndex">点击进入</div><img src="http://www.abc.com/decoration/source/images/guide2.jpg"></div>
+        <div class="swiper-slide"><div class="gotoIndex" action-type="tap.gotoIndex">点击进入</div><img src="http://www.abc.com/decoration/source/images/guide2.jpg"></div>
     </div>
 </div>
