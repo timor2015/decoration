@@ -11,7 +11,7 @@ $font-helvetica-medium: Helvetica Medium, Helvetica Light, Helvetica Neue, Helve
 
 @font-face {
   font-family: yofont;
-  src: url("http://simg1.qunarzz.com/fonts/delete/0.0.1/iconfont.woff") format("woff"), url("http://simg1.qunarzz.com/fonts/delete/0.0.1/iconfont.ttf") format("truetype");
+  src: url("/decoration/source/fonts/iconfont.woff") format("woff"), url("/decoration/source/fonts/iconfont.ttf") format("truetype");
 }
 
 $media-types: (
@@ -125,7 +125,7 @@ $media-types: (
 	$mask-bgcolor: #fff,
 	$ico-size: .3rem,
 	$ico-color: $qunar-color
-){
+) {
 	z-index: -1;
 }
 
