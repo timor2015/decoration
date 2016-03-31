@@ -1,3 +1,11 @@
+@charset "utf-8";
+// 引入字体文件
+@font-face {
+  font-family: yofont;
+  src: url("/decoration/source/fonts/iconfont.woff") format("woff"), url("/decoration/source/fonts/iconfont.ttf") format("truetype");
+}
+
+
 .index{
 	width:100%;
 	height:100%;
@@ -11,7 +19,18 @@
 		width:100%;
 		height:0.44rem;
 		@include box-sizing(border-box);
+		@include border($border-width: 1px 0 0 0, $border-color: #A7A5A5);
 		background:#fff;
 		opacity:0.8;
+		ul{
+			@include flexbox(flex);
+			li{
+				@include flex(1);
+				@include box-sizing(border-box);
+				@include flexbox(flex);
+				@include flex-direction(column);
+				@include align-items(center);
+			}
+		}
 	}
 }

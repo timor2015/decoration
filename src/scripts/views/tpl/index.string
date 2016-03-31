@@ -2,10 +2,11 @@
 	<div class="index-body"></div>
 	<div class="index-nav">
 		<ul>
-			<li action-type="tap.switch" data-tag="home" node-type="home"><i>&#xe60a;</i><b>首页</b></li>
-			<li action-type="tap.switch" data-tag="home" node-type="home"><i>&#xe603;</i><b>图库</b></li>
-			<li action-type="tap.switch" data-tag="home" node-type="home"><i>&#xe626;</i><b>找公司</b></li>
-			<li action-type="tap.switch" data-tag="home" node-type="home"><i>&#xe78b;</i><b>我的</b></li>
+			<li action-type="tap.switch" data-tag="home" node-type="home"><i>&#xe6f9;</i><b>发现</b></li>
+			<li action-type="tap.switch" data-tag="pics" node-type="pics"><i>&#xe704;</i><b>案例</b></li>
+			<li action-type="tap.switch" data-tag="day" node-type="day"><i>&#xe626;</i><b>日记</b></li>
+			<li action-type="tap.switch" data-tag="insp" node-type="insp"><i>&#xe717;</i><b>灵感</b></li>
+			<li action-type="tap.switch" data-tag="raider" node-type="raider"><i>&#xe6e5;</i><b>攻略</b></li>
 		</ul>
 	</div>
 </section>
